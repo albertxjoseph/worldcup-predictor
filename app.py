@@ -7,6 +7,7 @@ Predictions are the leakage-safe, pre-kickoff numbers frozen in the ledger
 (see daily.py); there is no on-demand prediction path that could run up API costs.
 """
 
+import os
 import joblib
 import pandas as pd
 import streamlit as st
@@ -15,6 +16,15 @@ from daily import (build_tables, build_preview_data, PICK_LABEL, LEDGER_START,
                    CONFIDENT_THRESHOLD)
 
 st.set_page_config(page_title="World Cup 2026 Predictor", page_icon="⚽", layout="wide")
+
+# On Streamlit Cloud the API key is added as a secret; mirror it into the
+# environment so preview.py (which reads os.environ) finds it regardless of how
+# the host exposes secrets. Harmless locally (export still works).
+try:
+    if not os.environ.get("ANTHROPIC_API_KEY") and "ANTHROPIC_API_KEY" in st.secrets:
+        os.environ["ANTHROPIC_API_KEY"] = st.secrets["ANTHROPIC_API_KEY"]
+except Exception:
+    pass
 
 THEME_CSS = """
 <style>
