@@ -1,0 +1,14 @@
+# World Cup 2026 Predictor — runtime dependencies.
+# Pinned to the versions this project was built and tested against (Python 3.9).
+# On Streamlit Community Cloud, set the app's Python version to 3.9–3.11:
+# pandas 1.5.3 has no wheel for Python 3.12+.
+
+streamlit==1.50.0
+pandas==1.5.3
+numpy==1.26.4
+scikit-learn==1.6.1
+xgboost==2.1.4
+scipy==1.13.1
+anthropic==0.109.2
+joblib==1.5.3
+matplotlib==3.9.4

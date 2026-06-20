@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+.streamlit/secrets.toml
+.claude/settings.local.json
+data/players_22.csv
+data/predictions_log.csv
+data/preview_cache.json
