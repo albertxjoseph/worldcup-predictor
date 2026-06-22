@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T20:05:56.016203+00:00",
+  "generated_at": "2026-06-22T21:47:27.105546+00:00",
   "ledger_start": "2026-06-16",
   "confident_threshold": 0.6,
   "accuracy": {
@@ -15,16 +15,16 @@
         "away": "Iraq",
         "city": "Philadelphia",
         "date": "2026-06-22",
-        "p_home": 0.8858315944671631,
-        "p_draw": 0.0799429267644882,
-        "p_away": 0.0342255346477031,
-        "confidence": 0.8858315944671631,
+        "p_home": 0.8631570935249329,
+        "p_draw": 0.10139214992523193,
+        "p_away": 0.03545069694519043,
+        "confidence": 0.8631570935249329,
         "confident": true,
         "pick": "home_win",
         "pick_label": "home win",
         "features": {
-          "home_elo": 2101.822110507845,
-          "away_elo": 1699.5350800048366,
+          "home_elo": 2101.821445924809,
+          "away_elo": 1699.5285332256688,
           "home_form_gf": 2.4,
           "home_form_ga": 1.2,
           "away_form_gf": 1.0,
@@ -33,7 +33,7 @@
           "away_strength": 23.1,
           "home_is_host": 0.0,
           "away_is_host": 0.0,
-          "home_support_index": 0.28127854772538935,
+          "home_support_index": 0.2812785477253893,
           "away_support_index": 0.21222624011709015
         },
         "dc": {
@@ -41,29 +41,29 @@
             2,
             0
           ],
-          "xg_home": 2.29,
-          "xg_away": 0.41,
-          "home": 0.7979813003106686,
-          "draw": 0.15287029935843569,
-          "away": 0.04914840033089579
+          "xg_home": 2.27,
+          "xg_away": 0.48,
+          "home": 0.7784194695075372,
+          "draw": 0.1614477956565165,
+          "away": 0.06013273483594622
         },
-        "preview": null
+        "preview": "France are massive favourites here, with the model giving them an 86% chance of winning against a heavily outclassed Iraq side. The single biggest factor driving that pick is the enormous squad strength gap \u2014 France score 99 out of 100 against Iraq's 23 \u2014 which reflects a generational difference in player quality at every position. The Dixon-Coles model backs a comfortable 2-0 win, with France expected to score over twice as many goals as Iraq are likely to manage across the entire match."
       },
       {
         "home": "Norway",
         "away": "Senegal",
         "city": "East Rutherford",
         "date": "2026-06-22",
-        "p_home": 0.3791590929031372,
-        "p_draw": 0.2503803372383117,
-        "p_away": 0.3704605400562286,
-        "confidence": 0.3791590929031372,
+        "p_home": 0.3813149929046631,
+        "p_draw": 0.2575882375240326,
+        "p_away": 0.36109670996665955,
+        "confidence": 0.3813149929046631,
         "confident": false,
         "pick": "home_win",
         "pick_label": "home win",
         "features": {
-          "home_elo": 1949.9993188181497,
-          "away_elo": 1881.135888852356,
+          "home_elo": 1949.9981829833953,
+          "away_elo": 1881.1354871176536,
           "home_form_gf": 1.8,
           "home_form_ga": 1.0,
           "away_form_gf": 1.6,
@@ -80,29 +80,29 @@
             1,
             1
           ],
-          "xg_home": 1.35,
-          "xg_away": 0.99,
-          "home": 0.44236904357014195,
-          "draw": 0.2866561550366965,
-          "away": 0.27097480139316144
+          "xg_home": 1.34,
+          "xg_away": 1.01,
+          "home": 0.4367547661608795,
+          "draw": 0.2863895845042933,
+          "away": 0.2768556493348272
         },
-        "preview": null
+        "preview": "Norway edge this one as narrow favourites, with their superior Elo rating \u2014 the biggest single factor here \u2014 giving them a meaningful edge despite Senegal's stronger squad ranking. The Dixon-Coles model projects a 1-1 finish as the likeliest scoreline, reflecting how tight this contest looks on paper, but Norway's better defensive record and historical performance edge tip the balance their way. Senegal's squad quality keeps this far from a sure thing, and the neutral venue strips away any home comfort for either side."
       },
       {
         "home": "Argentina",
         "away": "Austria",
         "city": "Arlington",
         "date": "2026-06-22",
-        "p_home": 0.6443057656288147,
-        "p_draw": 0.2439033836126327,
-        "p_away": 0.1117908433079719,
-        "confidence": 0.6443057656288147,
+        "p_home": 0.6812403202056885,
+        "p_draw": 0.20474588871002197,
+        "p_away": 0.11401381343603134,
+        "confidence": 0.6812403202056885,
         "confident": true,
         "pick": "home_win",
         "pick_label": "home win",
         "features": {
-          "home_elo": 2175.7136202707175,
-          "away_elo": 1925.1476001376068,
+          "home_elo": 2175.7129613445786,
+          "away_elo": 1925.1464528109464,
           "home_form_gf": 3.0,
           "home_form_ga": 0.2,
           "away_form_gf": 2.2,
@@ -112,36 +112,36 @@
           "home_is_host": 0.0,
           "away_is_host": 0.0,
           "home_support_index": 0.2496321839063895,
-          "away_support_index": 0.2644584544383115
+          "away_support_index": 0.26445845443831145
         },
         "dc": {
           "scoreline": [
             1,
             0
           ],
-          "xg_home": 1.26,
-          "xg_away": 0.55,
-          "home": 0.5346389450879481,
-          "draw": 0.30772968151426433,
-          "away": 0.1576313733977877
+          "xg_home": 1.42,
+          "xg_away": 0.49,
+          "home": 0.5988665360667262,
+          "draw": 0.27968421019167594,
+          "away": 0.121449253741598
         },
-        "preview": null
+        "preview": "Argentina are heavy favourites here, with the model giving them a 68% chance of victory, and the single biggest factor is the enormous 251-point Elo gap between two sides who are simply not operating at the same level of world football. The expected goals back that up \u2014 Argentina are projected to score nearly three times as many as Austria, with a 1-0 the most likely outcome. Austria's recent form isn't embarrassing, but their squad strength of 70 against Argentina's 94 tells the real story: this is a clash between a global elite side and a solid but outclassed European outfit."
       },
       {
         "home": "Jordan",
         "away": "Algeria",
         "city": "Santa Clara",
         "date": "2026-06-22",
-        "p_home": 0.0996254608035087,
-        "p_draw": 0.201158806681633,
-        "p_away": 0.6992157101631165,
-        "confidence": 0.6992157101631165,
+        "p_home": 0.11955009400844574,
+        "p_draw": 0.22022120654582977,
+        "p_away": 0.6602287292480469,
+        "confidence": 0.6602287292480469,
         "confident": true,
         "pick": "away_win",
         "pick_label": "away win",
         "features": {
-          "home_elo": 1719.9782049339044,
-          "away_elo": 1893.7291543195302,
+          "home_elo": 1719.9738189331474,
+          "away_elo": 1893.7280926001688,
           "home_form_gf": 1.2,
           "home_form_ga": 2.6,
           "away_form_gf": 2.4,
@@ -151,20 +151,20 @@
           "home_is_host": 0.0,
           "away_is_host": 0.0,
           "home_support_index": 0.21457615467719374,
-          "away_support_index": 0.2548942610117966
+          "away_support_index": 0.2548942610117965
         },
         "dc": {
           "scoreline": [
             0,
             2
           ],
-          "xg_home": 0.79,
-          "xg_away": 2.01,
-          "home": 0.13423070184218394,
-          "draw": 0.21216009326468727,
-          "away": 0.6536092048931288
+          "xg_home": 0.83,
+          "xg_away": 2.18,
+          "home": 0.1250506125873183,
+          "draw": 0.19540123609282703,
+          "away": 0.6795481513198547
         },
-        "preview": null
+        "preview": "Algeria are heavy favourites here, with the model giving them a 66% chance of victory, and the single biggest factor is the enormous squad strength gap \u2014 Algeria's score of 64 against Jordan's 14 tells the story of a side with far superior talent at every level. The expected goals back that up brutally, projecting a 2.18 to 0.83 advantage for the Fennec Foxes, with a 0-2 the most likely scoreline. Jordan's shaky defensive record \u2014 conceding 2.6 goals per game recently \u2014 suggests Algeria's clinical attack should have plenty of joy on the night."
       }
     ]
   },
@@ -172,24 +172,13 @@
     "date": "2026-06-21",
     "games": [
       {
-        "home": "Belgium",
-        "away": "Iran",
-        "home_score": 0,
-        "away_score": 0,
-        "pick": "home_win",
-        "pick_label": "home win",
-        "confidence": 0.5965391993522644,
-        "confident": false,
-        "correct": false
-      },
-      {
         "home": "New Zealand",
         "away": "Egypt",
         "home_score": 1,
         "away_score": 3,
         "pick": "away_win",
         "pick_label": "away win",
-        "confidence": 0.5657742619514465,
+        "confidence": 0.5428963303565979,
         "confident": false,
         "correct": true
       },
@@ -200,9 +189,20 @@
         "away_score": 0,
         "pick": "home_win",
         "pick_label": "home win",
-        "confidence": 0.787631094455719,
+        "confidence": 0.7802271246910095,
         "confident": true,
         "correct": true
+      },
+      {
+        "home": "Belgium",
+        "away": "Iran",
+        "home_score": 0,
+        "away_score": 0,
+        "pick": "home_win",
+        "pick_label": "home win",
+        "confidence": 0.6428099274635315,
+        "confident": true,
+        "correct": false
       },
       {
         "home": "Uruguay",
@@ -211,7 +211,7 @@
         "away_score": 2,
         "pick": "home_win",
         "pick_label": "home win",
-        "confidence": 0.7669833302497864,
+        "confidence": 0.7600441575050354,
         "confident": true,
         "correct": false
       }
@@ -221,48 +221,48 @@
     {
       "rank": 1,
       "team": "Argentina",
-      "pct": 20.0
+      "pct": 21.0
     },
     {
       "rank": 2,
       "team": "Spain",
-      "pct": 15.2
+      "pct": 15.4
     },
     {
       "rank": 3,
-      "team": "Brazil",
-      "pct": 10.0
+      "team": "France",
+      "pct": 11.2
     },
     {
       "rank": 4,
-      "team": "France",
-      "pct": 9.4
+      "team": "Brazil",
+      "pct": 8.8
     },
     {
       "rank": 5,
-      "team": "England",
-      "pct": 7.6
+      "team": "Germany",
+      "pct": 7.7
     },
     {
       "rank": 6,
-      "team": "Germany",
-      "pct": 7.4
+      "team": "England",
+      "pct": 6.7
     },
     {
       "rank": 7,
       "team": "Portugal",
-      "pct": 5.6
+      "pct": 5.1
     },
     {
       "rank": 8,
       "team": "Colombia",
-      "pct": 4.6
+      "pct": 4.7
     }
   ],
   "meta": {
     "matches": 49000,
     "teams": 48,
     "sims": 5000,
-    "previews": false
+    "previews": true
   }
 }
