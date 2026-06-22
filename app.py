@@ -32,33 +32,38 @@ THEME_CSS = """
 :root{
   --bg:#F3EFE4; --surface:#FBF8EF; --ink:#16241B; --muted:#5E6B61;
   --green:#16A35A; --green-deep:#0B5C36; --gold:#C9982E; --coral:#CF5638;
+  --bar-win:#0C7C42; --bar-draw:#9C6F15;
   --line:#E4DCCB; --track:#ECE6D6;
 }
 .stApp{ background:var(--bg); }
-.block-container{ max-width:1080px; padding-top:2.4rem; padding-bottom:4rem; }
+.block-container{ max-width:1040px; padding-top:2.6rem; padding-bottom:4.5rem; }
 html, body, [data-testid="stAppViewContainer"], .stMarkdown, p, span, div, label, li{
   font-family:'Inter', system-ui, sans-serif; color:var(--ink);
 }
 h1,h2,h3,h4{ font-family:'Space Grotesk', sans-serif !important; color:var(--ink) !important;
   letter-spacing:-0.02em; }
-a{ color:var(--green); }
-hr{ border:none; border-top:1px solid var(--line); margin:2.2rem 0; }
+a{ color:var(--green-deep); }
+hr{ border:none; border-top:1px solid var(--line); margin:2.6rem 0; }
 
-.hero-title{ font-family:'Baloo 2', system-ui, sans-serif; font-weight:800; font-size:3.5rem;
-  line-height:1.05; letter-spacing:-0.005em; color:var(--green); margin:0 0 .7rem; }
-.hero-intro{ font-size:1.06rem; line-height:1.62; color:#3c463e; max-width:710px; margin:0 0 .7rem; }
-.hero-by{ font-size:.95rem; color:var(--muted); }
+.hero-title{ font-family:'Baloo 2', system-ui, sans-serif; font-weight:800; font-size:3.9rem;
+  line-height:1.02; letter-spacing:-0.01em; color:var(--green); margin:0 0 .5rem; }
+.hero-intro{ font-size:1.28rem; line-height:1.45; color:#2c352e; max-width:620px; margin:0 0 .55rem; }
+.hero-by{ font-size:.9rem; color:var(--muted); }
 .hero-by b{ color:var(--green-deep); font-weight:500; }
+.hstrip{ display:flex; gap:2.75rem; margin:1.7rem 0 .2rem; flex-wrap:wrap; }
+.hstat-n{ font-family:'Baloo 2', system-ui, sans-serif; font-weight:800; font-size:1.85rem;
+  line-height:1; color:var(--green-deep); font-variant-numeric:tabular-nums; }
+.hstat-l{ font-size:.78rem; color:var(--muted); margin-top:.3rem; }
 
 .sec{ display:flex; gap:14px; align-items:baseline; margin:.2rem 0 1.1rem; }
-.sec-k{ font-family:'Space Grotesk'; font-weight:600; font-size:.82rem; color:var(--green);
+.sec-k{ font-family:'Space Grotesk'; font-weight:600; font-size:.82rem; color:var(--green-deep);
   letter-spacing:.16em; }
 .sec-t{ font-family:'Space Grotesk'; font-weight:600; font-size:1.55rem; }
-.sec-s{ font-size:.92rem; color:var(--muted); }
+.sec-s{ font-size:.9rem; color:var(--muted); }
 
 .stat-num{ font-family:'Baloo 2', system-ui, sans-serif; font-weight:800; font-size:4.6rem;
-  line-height:.95; color:var(--green); }
-.stat-sub{ color:#3c463e; font-size:1.02rem; line-height:1.55; max-width:560px; }
+  line-height:.95; color:var(--green); font-variant-numeric:tabular-nums; }
+.stat-sub{ color:#2c352e; font-size:1.0rem; line-height:1.55; max-width:520px; }
 .stat-sub b{ color:var(--green-deep); }
 
 [data-testid="stVerticalBlockBorderWrapper"]{ background:var(--surface);
@@ -74,12 +79,13 @@ hr{ border:none; border-top:1px solid var(--line); margin:2.2rem 0; }
 .wdl-label{ font-size:.86rem; color:#3c463e; }
 .wdl-track{ height:11px; background:var(--track); border-radius:6px; overflow:hidden; }
 .wdl-fill{ height:100%; border-radius:6px; }
-.win{ background:var(--green); } .draw{ background:var(--gold); } .loss{ background:var(--coral); }
-.wdl-val{ font-family:'Space Grotesk'; font-weight:600; font-size:.9rem; text-align:right; }
+.win{ background:var(--bar-win); } .draw{ background:var(--bar-draw); } .loss{ background:var(--coral); }
+.wdl-val{ font-family:'Space Grotesk'; font-weight:600; font-size:.9rem; text-align:right;
+  font-variant-numeric:tabular-nums; }
 
 .dc-score{ font-family:'Baloo 2', system-ui, sans-serif; font-weight:700; font-size:2.9rem;
-  line-height:1; color:var(--ink); }
-.dc-meta{ color:var(--muted); font-size:.85rem; margin-top:.3rem; }
+  line-height:1; color:var(--ink); font-variant-numeric:tabular-nums; }
+.dc-meta{ color:var(--muted); font-size:.85rem; margin-top:.3rem; font-variant-numeric:tabular-nums; }
 
 .preview{ font-size:.98rem; line-height:1.6; color:#2c352e; }
 
@@ -87,7 +93,7 @@ hr{ border:none; border-top:1px solid var(--line); margin:2.2rem 0; }
 .badge.ok{ background:#E2F0E3; color:#1B6B36; } .badge.no{ background:#F6E2DB; color:#9E3B22; }
 .tag{ display:inline-block; font-weight:500; font-size:.76rem; padding:2px 10px; border-radius:999px;
   border:1px solid; background:transparent; }
-.tag.conf{ color:var(--green-deep); border-color:var(--green); }
+.tag.conf{ color:var(--green-deep); border-color:var(--green-deep); }
 .tag.toss{ color:#6B6453; border-color:#CBBFA6; }
 
 .yc-score{ font-family:'Space Grotesk'; font-weight:600; font-size:1.05rem; margin:0; }
@@ -96,19 +102,22 @@ hr{ border:none; border-top:1px solid var(--line); margin:2.2rem 0; }
 
 .trk-row{ display:grid; grid-template-columns:26px 158px 1fr 58px; align-items:center; gap:12px;
   padding:11px 0; border-bottom:1px solid var(--line); }
-.trk-rank{ font-family:'Space Grotesk'; font-weight:600; color:var(--gold); font-size:1.05rem; }
+.trk-rank{ font-family:'Space Grotesk'; font-weight:600; color:var(--green-deep); font-size:1.05rem;
+  font-variant-numeric:tabular-nums; }
 .trk-team{ font-weight:500; }
 .trk-track{ height:9px; background:var(--track); border-radius:6px; overflow:hidden; }
-.trk-fill{ height:100%; background:var(--green); border-radius:6px; }
-.trk-fill.lead{ background:var(--gold); }
-.trk-val{ font-family:'Space Grotesk'; font-weight:600; text-align:right; }
+.trk-fill{ height:100%; background:var(--bar-win); border-radius:6px; }
+.trk-fill.lead{ background:var(--bar-draw); }
+.trk-val{ font-family:'Space Grotesk'; font-weight:600; text-align:right;
+  font-variant-numeric:tabular-nums; }
 
 .how{ width:100%; border-collapse:collapse; font-size:.9rem; }
 .how td{ padding:7px 0; border-bottom:1px solid var(--line); }
 .how td:first-child{ color:var(--muted); }
-.how td.v{ font-family:'Space Grotesk'; font-weight:500; text-align:right; }
+.how td.v{ font-family:'Space Grotesk'; font-weight:500; text-align:right;
+  font-variant-numeric:tabular-nums; }
 
-.stButton button{ border-radius:999px; border:1px solid var(--green) !important;
+.stButton button{ border-radius:999px; border:1px solid var(--green-deep) !important;
   color:var(--green-deep) !important; background:transparent !important; font-weight:500; }
 .stButton button:hover{ background:#E7F0E7 !important; }
 .foot{ color:var(--muted); font-size:.82rem; line-height:1.6; }
@@ -215,11 +224,13 @@ tables = get_tables(st.session_state.nonce)
 # ── hero ─────────────────────────────────────────────────────────────────────
 st.markdown(
     '<div class="hero-title">World Cup 2026 Predictor</div>'
-    '<p class="hero-intro">A self-grading machine-learning model for the 2026 World Cup. '
-    'It predicts every match — win, draw and loss odds plus a likely scoreline — simulates '
-    'the whole bracket to rank each team\'s chance of lifting the trophy, and checks itself '
-    'against real results as they land.</p>'
-    '<p class="hero-by">Built by <b>Albert Joseph</b>.</p>',
+    '<p class="hero-intro">Every match predicted — and graded against real results.</p>'
+    '<p class="hero-by">Built by <b>Albert Joseph</b></p>'
+    '<div class="hstrip">'
+    '<div><div class="hstat-n">49K</div><div class="hstat-l">matches analyzed</div></div>'
+    '<div><div class="hstat-n">48</div><div class="hstat-l">teams simulated</div></div>'
+    '<div><div class="hstat-n">5K</div><div class="hstat-l">simulations / refresh</div></div>'
+    '</div>',
     unsafe_allow_html=True,
 )
 
@@ -244,10 +255,9 @@ with left:
                 unsafe_allow_html=True)
 with right:
     st.markdown(
-        f'<div class="stat-sub"><b>{acc["correct"]} of {acc["total"]}</b> completed 2026 '
-        f'World Cup games called correctly since {LEDGER_START.date()} — the day this '
-        f'predictor went live. A pick counts as correct when the single most-likely '
-        f'outcome (home win, draw, or away win) matches the result.</div>',
+        f'<div class="stat-sub"><b>{acc["correct"]} of {acc["total"]}</b> predictions correct '
+        f'since {LEDGER_START.date()}, when this went live — most-likely outcome vs the '
+        f'actual result.</div>',
         unsafe_allow_html=True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
@@ -255,8 +265,7 @@ st.markdown("<hr>", unsafe_allow_html=True)
 # ── 02 · Yesterday's results ─────────────────────────────────────────────────
 yesterday = tables["yesterday"]
 section("02", "Yesterday's results",
-        f"{yesterday.date()} · predicted before kickoff vs what happened"
-        if yesterday is not None else None)
+        f"{yesterday.date()} · prediction vs actual" if yesterday is not None else None)
 if yesterday is not None and len(tables["yesterday_games"]):
     cards = st.columns(len(tables["yesterday_games"]))
     for card, (_, row) in zip(cards, tables["yesterday_games"].iterrows()):
@@ -282,10 +291,8 @@ st.markdown("<hr>", unsafe_allow_html=True)
 today = tables["today"]
 prewarm_today(st.session_state.nonce)
 section("03", "Today's games",
-        f"{today.date()} · full model breakdown and an auto-generated preview"
-        if today is not None else None)
-st.caption(f"Games where the top outcome clears {CONFIDENT_THRESHOLD*100:.0f}% are flagged "
-           "“confident pick” (right ~76% of the time historically); closer games are “toss-up”.")
+        f"{today.date()} · odds, scoreline & preview per game" if today is not None else None)
+st.caption(f"Confident pick = model ≥{CONFIDENT_THRESHOLD*100:.0f}% sure; closer games are toss-ups.")
 
 for _, row in tables["today_games"].iterrows():
     home, away = row["home_team"], row["away_team"]
@@ -323,7 +330,7 @@ for _, row in tables["today_games"].iterrows():
 st.markdown("<hr>", unsafe_allow_html=True)
 
 # ── 04 · Road to the Cup ─────────────────────────────────────────────────────
-section("04", "Road to the Cup", "live title odds from a Monte Carlo simulation")
+section("04", "Road to the Cup", "title odds, simulated")
 table, n_sims = run_tracker(st.session_state.nonce)
 top = table[:5]
 top_p = top[0][1] if top else 1
@@ -336,13 +343,10 @@ for i, (team, p) in enumerate(top):
              f'style="width:{p/top_p*100:.0f}%"></div></div>'
              f'<div class="trk-val">{p*100:.1f}%</div></div>')
 st.markdown(html, unsafe_allow_html=True)
-st.caption(f"Based on {n_sims:,} simulations of the remaining tournament (official 2026 groups, "
-           "bracket, and tiebreakers). Not real-time — updates when you refresh. Penalty "
-           "shootouts modelled as a near coin-flip with a small edge to the higher-Elo side.")
+st.caption(f"{n_sims:,} simulations · official 2026 bracket · updates on refresh.")
 
 st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown(
-    '<p class="foot">Data: martj42/international_results (match results) · FIFA 22 player '
-    'ratings (squad strength). Squad strength and crowd support are documented simplifications. '
-    'Predictions are leakage-safe pre-kickoff numbers, frozen when first shown. '
-    'Built by Albert Joseph.</p>', unsafe_allow_html=True)
+    '<p class="foot">Data: martj42 international results · FIFA 22 ratings. '
+    'Predictions are leakage-safe and frozen pre-kickoff. Built by Albert Joseph.</p>',
+    unsafe_allow_html=True)

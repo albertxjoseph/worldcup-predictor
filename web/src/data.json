@@ -1,0 +1,268 @@
+{
+  "generated_at": "2026-06-22T20:05:56.016203+00:00",
+  "ledger_start": "2026-06-16",
+  "confident_threshold": 0.6,
+  "accuracy": {
+    "pct": 70.83333333333334,
+    "correct": 17,
+    "total": 24
+  },
+  "today": {
+    "date": "2026-06-22",
+    "games": [
+      {
+        "home": "France",
+        "away": "Iraq",
+        "city": "Philadelphia",
+        "date": "2026-06-22",
+        "p_home": 0.8858315944671631,
+        "p_draw": 0.0799429267644882,
+        "p_away": 0.0342255346477031,
+        "confidence": 0.8858315944671631,
+        "confident": true,
+        "pick": "home_win",
+        "pick_label": "home win",
+        "features": {
+          "home_elo": 2101.822110507845,
+          "away_elo": 1699.5350800048366,
+          "home_form_gf": 2.4,
+          "home_form_ga": 1.2,
+          "away_form_gf": 1.0,
+          "away_form_ga": 1.6,
+          "home_strength": 99.3,
+          "away_strength": 23.1,
+          "home_is_host": 0.0,
+          "away_is_host": 0.0,
+          "home_support_index": 0.28127854772538935,
+          "away_support_index": 0.21222624011709015
+        },
+        "dc": {
+          "scoreline": [
+            2,
+            0
+          ],
+          "xg_home": 2.29,
+          "xg_away": 0.41,
+          "home": 0.7979813003106686,
+          "draw": 0.15287029935843569,
+          "away": 0.04914840033089579
+        },
+        "preview": null
+      },
+      {
+        "home": "Norway",
+        "away": "Senegal",
+        "city": "East Rutherford",
+        "date": "2026-06-22",
+        "p_home": 0.3791590929031372,
+        "p_draw": 0.2503803372383117,
+        "p_away": 0.3704605400562286,
+        "confidence": 0.3791590929031372,
+        "confident": false,
+        "pick": "home_win",
+        "pick_label": "home win",
+        "features": {
+          "home_elo": 1949.9993188181497,
+          "away_elo": 1881.135888852356,
+          "home_form_gf": 1.8,
+          "home_form_ga": 1.0,
+          "away_form_gf": 1.6,
+          "away_form_ga": 1.4,
+          "home_strength": 61.9,
+          "away_strength": 69.0,
+          "home_is_host": 0.0,
+          "away_is_host": 0.0,
+          "home_support_index": 0.29449869499136555,
+          "away_support_index": 0.2660302463070963
+        },
+        "dc": {
+          "scoreline": [
+            1,
+            1
+          ],
+          "xg_home": 1.35,
+          "xg_away": 0.99,
+          "home": 0.44236904357014195,
+          "draw": 0.2866561550366965,
+          "away": 0.27097480139316144
+        },
+        "preview": null
+      },
+      {
+        "home": "Argentina",
+        "away": "Austria",
+        "city": "Arlington",
+        "date": "2026-06-22",
+        "p_home": 0.6443057656288147,
+        "p_draw": 0.2439033836126327,
+        "p_away": 0.1117908433079719,
+        "confidence": 0.6443057656288147,
+        "confident": true,
+        "pick": "home_win",
+        "pick_label": "home win",
+        "features": {
+          "home_elo": 2175.7136202707175,
+          "away_elo": 1925.1476001376068,
+          "home_form_gf": 3.0,
+          "home_form_ga": 0.2,
+          "away_form_gf": 2.2,
+          "away_form_ga": 0.6,
+          "home_strength": 93.6,
+          "away_strength": 69.9,
+          "home_is_host": 0.0,
+          "away_is_host": 0.0,
+          "home_support_index": 0.2496321839063895,
+          "away_support_index": 0.2644584544383115
+        },
+        "dc": {
+          "scoreline": [
+            1,
+            0
+          ],
+          "xg_home": 1.26,
+          "xg_away": 0.55,
+          "home": 0.5346389450879481,
+          "draw": 0.30772968151426433,
+          "away": 0.1576313733977877
+        },
+        "preview": null
+      },
+      {
+        "home": "Jordan",
+        "away": "Algeria",
+        "city": "Santa Clara",
+        "date": "2026-06-22",
+        "p_home": 0.0996254608035087,
+        "p_draw": 0.201158806681633,
+        "p_away": 0.6992157101631165,
+        "confidence": 0.6992157101631165,
+        "confident": true,
+        "pick": "away_win",
+        "pick_label": "away win",
+        "features": {
+          "home_elo": 1719.9782049339044,
+          "away_elo": 1893.7291543195302,
+          "home_form_gf": 1.2,
+          "home_form_ga": 2.6,
+          "away_form_gf": 2.4,
+          "away_form_ga": 0.6,
+          "home_strength": 14.0,
+          "away_strength": 64.2,
+          "home_is_host": 0.0,
+          "away_is_host": 0.0,
+          "home_support_index": 0.21457615467719374,
+          "away_support_index": 0.2548942610117966
+        },
+        "dc": {
+          "scoreline": [
+            0,
+            2
+          ],
+          "xg_home": 0.79,
+          "xg_away": 2.01,
+          "home": 0.13423070184218394,
+          "draw": 0.21216009326468727,
+          "away": 0.6536092048931288
+        },
+        "preview": null
+      }
+    ]
+  },
+  "yesterday": {
+    "date": "2026-06-21",
+    "games": [
+      {
+        "home": "Belgium",
+        "away": "Iran",
+        "home_score": 0,
+        "away_score": 0,
+        "pick": "home_win",
+        "pick_label": "home win",
+        "confidence": 0.5965391993522644,
+        "confident": false,
+        "correct": false
+      },
+      {
+        "home": "New Zealand",
+        "away": "Egypt",
+        "home_score": 1,
+        "away_score": 3,
+        "pick": "away_win",
+        "pick_label": "away win",
+        "confidence": 0.5657742619514465,
+        "confident": false,
+        "correct": true
+      },
+      {
+        "home": "Spain",
+        "away": "Saudi Arabia",
+        "home_score": 4,
+        "away_score": 0,
+        "pick": "home_win",
+        "pick_label": "home win",
+        "confidence": 0.787631094455719,
+        "confident": true,
+        "correct": true
+      },
+      {
+        "home": "Uruguay",
+        "away": "Cape Verde",
+        "home_score": 2,
+        "away_score": 2,
+        "pick": "home_win",
+        "pick_label": "home win",
+        "confidence": 0.7669833302497864,
+        "confident": true,
+        "correct": false
+      }
+    ]
+  },
+  "title_odds": [
+    {
+      "rank": 1,
+      "team": "Argentina",
+      "pct": 20.0
+    },
+    {
+      "rank": 2,
+      "team": "Spain",
+      "pct": 15.2
+    },
+    {
+      "rank": 3,
+      "team": "Brazil",
+      "pct": 10.0
+    },
+    {
+      "rank": 4,
+      "team": "France",
+      "pct": 9.4
+    },
+    {
+      "rank": 5,
+      "team": "England",
+      "pct": 7.6
+    },
+    {
+      "rank": 6,
+      "team": "Germany",
+      "pct": 7.4
+    },
+    {
+      "rank": 7,
+      "team": "Portugal",
+      "pct": 5.6
+    },
+    {
+      "rank": 8,
+      "team": "Colombia",
+      "pct": 4.6
+    }
+  ],
+  "meta": {
+    "matches": 49000,
+    "teams": 48,
+    "sims": 5000,
+    "previews": false
+  }
+}
