@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-06-24T11:44:01.834922+00:00",
+  "generated_at": "2026-06-25T11:38:47.163544+00:00",
   "ledger_start": "2026-06-16",
   "confident_threshold": 0.6,
   "accuracy": {
-    "pct": 75.0,
-    "correct": 24,
-    "total": 32
+    "pct": 76.31578947368422,
+    "correct": 29,
+    "total": 38
   },
   "today": {
-    "date": "2026-06-24",
+    "date": "2026-06-25",
     "games": [
       {
-        "home": "Mexico",
-        "away": "Czech Republic",
-        "city": "Mexico City",
-        "date": "2026-06-24",
-        "p_home": 0.5880008935928345,
-        "p_draw": 0.2518978416919708,
-        "p_away": 0.1601012647151947,
-        "confidence": 0.5880008935928345,
+        "home": "United States",
+        "away": "Turkey",
+        "city": "Inglewood",
+        "date": "2026-06-25",
+        "p_home": 0.4102780818939209,
+        "p_draw": 0.28647658228874207,
+        "p_away": 0.3032453656196594,
+        "confidence": 0.4102780818939209,
         "confident": false,
         "pick": "home_win",
         "pick_label": "home win",
         "features": {
-          "home_elo": 1961.6251185318915,
-          "away_elo": 1800.6313147868764,
-          "home_form_gf": 2.2,
-          "home_form_ga": 0.2,
-          "away_form_gf": 2.2,
-          "away_form_ga": 1.4,
-          "home_strength": 71.9,
-          "away_strength": 67.3,
+          "home_elo": 1878.9851486375362,
+          "away_elo": 1891.3623240060017,
+          "home_form_gf": 2.0,
+          "home_form_ga": 1.4,
+          "away_form_gf": 1.4,
+          "away_form_ga": 0.8,
+          "home_strength": 58.8,
+          "away_strength": 65.5,
           "home_is_host": 1.0,
           "away_is_host": 0.0,
           "home_support_index": 1.0,
-          "away_support_index": 0.23390604554879257
+          "away_support_index": 0.22758906897722733
         },
         "dc": {
           "scoreline": [
@@ -42,255 +42,277 @@
             1
           ],
           "xg_home": 1.23,
-          "xg_away": 1.03,
-          "home": 0.401134507871018,
-          "draw": 0.2975359504548336,
-          "away": 0.30132954167414816
+          "xg_away": 1.56,
+          "home": 0.29836301557639244,
+          "draw": 0.2569015261792926,
+          "away": 0.4447354582443148
         },
-        "preview": "Mexico are clear favourites here, with the model giving them a 59% chance of victory, and the single biggest factor driving that is the Elo gap \u2014 Mexico sit 161 points above Czech Republic, reflecting a meaningfully stronger overall pedigree. The Czechs aren't pushovers, and a 1-1 draw is actually the most likely individual scoreline, but Mexico's superior squad depth and home-crowd advantage make them tough to beat. Expect Mexico to control large stretches of the game, even if Czech Republic's solid recent attacking form keeps the result in doubt until late."
+        "preview": "Turkey edge this one as narrow favourites, with the model giving them a 30% win probability against the United States' 41% \u2014 though the most likely single outcome is a 1-1 draw. The biggest factor driving Turkey's edge is squad strength, where they rate 66 against the USA's 59, suggesting they simply have better individual quality across the pitch. The Americans get a boost from their crowd proximity advantage, but it's not enough to fully offset the talent gap, and Dixon-Coles projects Turkey to outscore them 1.56 to 1.23 on the night."
       },
       {
-        "home": "South Africa",
-        "away": "South Korea",
-        "city": "Guadalupe",
-        "date": "2026-06-24",
-        "p_home": 0.14024344086647034,
-        "p_draw": 0.26336637139320374,
-        "p_away": 0.5963901877403259,
-        "confidence": 0.5963901877403259,
+        "home": "Paraguay",
+        "away": "Australia",
+        "city": "Santa Clara",
+        "date": "2026-06-25",
+        "p_home": 0.42250770330429077,
+        "p_draw": 0.28430506587028503,
+        "p_away": 0.2931872606277466,
+        "confidence": 0.42250770330429077,
+        "confident": false,
+        "pick": "home_win",
+        "pick_label": "home win",
+        "features": {
+          "home_elo": 1864.6495224752846,
+          "away_elo": 1873.2273201612709,
+          "home_form_gf": 1.6,
+          "home_form_ga": 1.2,
+          "away_form_gf": 1.6,
+          "away_form_ga": 1.0,
+          "home_strength": 56.6,
+          "away_strength": 45.8,
+          "home_is_host": 0.0,
+          "away_is_host": 0.0,
+          "home_support_index": 0.2782801849521084,
+          "away_support_index": 0.16497581760288024
+        },
+        "dc": {
+          "scoreline": [
+            0,
+            0
+          ],
+          "xg_home": 0.79,
+          "xg_away": 0.94,
+          "home": 0.2875561465203997,
+          "draw": 0.3435899578893597,
+          "away": 0.36885389559024084
+        },
+        "preview": "Paraguay enter this one as narrow favourites despite virtually identical Elo ratings, and the single biggest factor tipping the scales is their significantly stronger squad depth \u2014 a 57 versus 46 rating that suggests more quality throughout the XI. The Dixon-Coles model expects a tight, low-scoring affair with 0-0 the likeliest scoreline, reflecting defences that have both been reasonably solid in recent games. Australia are no pushovers and their slight Elo edge keeps this genuinely close, but Paraguay's superior personnel edges them ahead on balance."
+      },
+      {
+        "home": "Cura\u00e7ao",
+        "away": "Ivory Coast",
+        "city": "Philadelphia",
+        "date": "2026-06-25",
+        "p_home": 0.09280052781105042,
+        "p_draw": 0.15400460362434387,
+        "p_away": 0.7531948089599609,
+        "confidence": 0.7531948089599609,
+        "confident": true,
+        "pick": "away_win",
+        "pick_label": "away win",
+        "features": {
+          "home_elo": 1566.5818084023074,
+          "away_elo": 1842.4864538306176,
+          "home_form_gf": 1.4,
+          "home_form_ga": 3.2,
+          "away_form_gf": 1.8,
+          "away_form_ga": 0.6,
+          "home_strength": 27.5,
+          "away_strength": 67.2,
+          "home_is_host": 0.0,
+          "away_is_host": 0.0,
+          "home_support_index": 0.43846468011829653,
+          "away_support_index": 0.23966494607665084
+        },
+        "dc": {
+          "scoreline": [
+            0,
+            1
+          ],
+          "xg_home": 0.45,
+          "xg_away": 1.86,
+          "home": 0.07809004929990188,
+          "draw": 0.2063736948979363,
+          "away": 0.7155362558021621
+        },
+        "preview": "Ivory Coast are heavy favourites here, with the model giving them a 75% chance of victory against a Cura\u00e7ao side that is simply outgunned at every level. The single biggest factor is the 276-point Elo gap between these sides, reflecting a substantial difference in quality that is reinforced by Ivory Coast's far superior squad strength and vastly better defensive record. Cura\u00e7ao's attack is expected to manage less than half a goal on average, making this one comfortable for the Elephants."
+      },
+      {
+        "home": "Ecuador",
+        "away": "Germany",
+        "city": "East Rutherford",
+        "date": "2026-06-25",
+        "p_home": 0.17616824805736542,
+        "p_draw": 0.23066799342632294,
+        "p_away": 0.5931637287139893,
+        "confidence": 0.5931637287139893,
         "confident": false,
         "pick": "away_win",
         "pick_label": "away win",
         "features": {
-          "home_elo": 1656.6678627202202,
-          "away_elo": 1870.051472564072,
-          "home_form_gf": 0.6,
-          "home_form_ga": 1.0,
-          "away_form_gf": 1.6,
-          "away_form_ga": 0.6,
-          "home_strength": 38.3,
-          "away_strength": 52.2,
-          "home_is_host": 0.0,
-          "away_is_host": 0.0,
-          "home_support_index": 0.17030590936211248,
-          "away_support_index": 0.20628644926933068
-        },
-        "dc": {
-          "scoreline": [
-            0,
-            1
-          ],
-          "xg_home": 0.76,
-          "xg_away": 1.33,
-          "home": 0.20795967235800925,
-          "draw": 0.2967012359769365,
-          "away": 0.49533909166505413
-        },
-        "preview": "South Korea are clear favourites here, with the model giving them a 60% chance of victory driven overwhelmingly by a massive 213-point Elo gap \u2014 the single biggest factor separating these sides. The Koreans also back that up with sharper recent form, averaging 1.6 goals per game while conceding just 0.6, compared to South Africa's tepid 0.6 scored and 1.0 conceded. The Dixon-Coles model sees this playing out as a tight but telling 0-1, and it's hard to argue against South Korea grinding out the win."
-      },
-      {
-        "home": "Canada",
-        "away": "Switzerland",
-        "city": "Vancouver",
-        "date": "2026-06-24",
-        "p_home": 0.3590283691883087,
-        "p_draw": 0.3003182113170624,
-        "p_away": 0.3406533896923065,
-        "confidence": 0.3590283691883087,
-        "confident": false,
-        "pick": "home_win",
-        "pick_label": "home win",
-        "features": {
-          "home_elo": 1885.8084686455488,
-          "away_elo": 1943.4593109843433,
-          "home_form_gf": 2.0,
-          "home_form_ga": 0.4,
-          "away_form_gf": 2.0,
+          "home_elo": 1954.4159722972959,
+          "away_elo": 2023.4137038779909,
+          "home_form_gf": 1.2,
+          "home_form_ga": 0.6,
+          "away_form_gf": 3.4,
           "away_form_ga": 0.8,
-          "home_strength": 45.6,
-          "away_strength": 71.4,
-          "home_is_host": 1.0,
+          "home_strength": 49.8,
+          "away_strength": 100.0,
+          "home_is_host": 0.0,
           "away_is_host": 0.0,
-          "home_support_index": 1.0,
-          "away_support_index": 0.2983216213871703
+          "home_support_index": 0.3900801567158078,
+          "away_support_index": 0.2762057012412588
         },
         "dc": {
           "scoreline": [
             0,
             1
           ],
-          "xg_home": 0.87,
-          "xg_away": 1.44,
-          "home": 0.22053873449644973,
-          "draw": 0.2809487060872436,
-          "away": 0.49851255941630657
+          "xg_home": 0.77,
+          "xg_away": 1.08,
+          "home": 0.2527469417879496,
+          "draw": 0.32541292780077413,
+          "away": 0.4218401304112764
         },
-        "preview": "Switzerland are narrow favourites here, with the model giving them a 34% chance of victory against Canada's 36% \u2014 close enough that this is essentially a coin-flip, but the expected goals tell a clearer story: 0.87 vs 1.44, pointing to a 0-1 Swiss win as the most likely outcome. The single biggest factor driving that edge is squad strength, where Switzerland's rating of 71 dwarfs Canada's 46, suggesting a meaningful quality gap that Elo's modest 58-point spread arguably undersells. Canada's home crowd advantage and strong recent defensive form (conceding just 0.4 goals per game) keep this competitive, but Switzerland's superior personnel should be enough to edge a tight, low-scoring affair."
+        "preview": "Germany are clear favourites here, with the model giving them a 59% chance of victory against a decent but outgunned Ecuador side. The single biggest factor is the enormous gulf in squad strength \u2014 Germany score a perfect 100 against Ecuador's 50 \u2014 and that shows up in the expected goals too, where Germany are projected to outscore Ecuador 1.08 to 0.77. Ecuador's solid defensive record offers a glimmer of hope, but the 0-1 scoreline as the most likely outcome tells the story neatly."
       },
       {
-        "home": "Bosnia and Herzegovina",
-        "away": "Qatar",
-        "city": "Seattle",
-        "date": "2026-06-24",
-        "p_home": 0.5929551124572754,
-        "p_draw": 0.20427657663822174,
-        "p_away": 0.20276831090450287,
-        "confidence": 0.5929551124572754,
+        "home": "Japan",
+        "away": "Sweden",
+        "city": "Arlington",
+        "date": "2026-06-25",
+        "p_home": 0.5329104661941528,
+        "p_draw": 0.23518401384353638,
+        "p_away": 0.23190554976463318,
+        "confidence": 0.5329104661941528,
         "confident": false,
         "pick": "home_win",
         "pick_label": "home win",
         "features": {
-          "home_elo": 1653.640382129234,
-          "away_elo": 1556.8163430794093,
-          "home_form_gf": 0.8,
-          "home_form_ga": 1.4,
-          "away_form_gf": 0.2,
-          "away_form_ga": 2.2,
-          "home_strength": 54.7,
-          "away_strength": 32.4,
+          "home_elo": 2000.435977828246,
+          "away_elo": 1797.544485984635,
+          "home_form_gf": 1.8,
+          "home_form_ga": 0.4,
+          "away_form_gf": 2.4,
+          "away_form_ga": 2.6,
+          "home_strength": 57.7,
+          "away_strength": 64.4,
           "home_is_host": 0.0,
           "away_is_host": 0.0,
-          "home_support_index": 0.25448239301094366,
-          "away_support_index": 0.1966477286155549
+          "home_support_index": 0.22812931315458645,
+          "away_support_index": 0.28122910846632715
         },
         "dc": {
           "scoreline": [
             1,
-            0
+            1
           ],
-          "xg_home": 1.68,
-          "xg_away": 0.88,
-          "home": 0.5565561610831617,
-          "draw": 0.252910460986785,
-          "away": 0.19053337793005332
+          "xg_home": 1.8,
+          "xg_away": 1.04,
+          "home": 0.5479786240280842,
+          "draw": 0.23758058141232996,
+          "away": 0.2144407945595857
         },
-        "preview": "Bosnia and Herzegovina are clear favourites here, with the model giving them a 59% chance of victory driven primarily by a significant Elo gap of 97 points over Qatar. The squad strength differential is the single biggest factor \u2014 Bosnia's rating of 55 versus Qatar's 32 reflects a meaningfully superior pool of players, and the Dixon-Coles model backs that up with Bosnia expected to score nearly twice as many goals (1.68 vs 0.88). Qatar's poor recent form, conceding 2.2 goals per game on average, suggests Bosnia's attack should find openings, with a 1-0 win the most likely outcome."
+        "preview": "Japan are the model's clear favourite here, backed by a substantial 200-point Elo gap that reflects a significant difference in international pedigree and sustained competitive results. The Dixon-Coles model projects them to outscore Sweden 1.80 to 1.04, and while a 1-1 draw is the single most likely scoreline, Japan's superior defensive record \u2014 conceding just 0.4 goals per game recently compared to Sweden's leaky 2.6 \u2014 makes them the team to beat. That defensive solidity is the biggest factor driving the pick, effectively acting as a floor under Japan's chances even if their attack has an off night."
       },
       {
-        "home": "Scotland",
-        "away": "Brazil",
-        "city": "Miami Gardens",
-        "date": "2026-06-24",
-        "p_home": 0.13500040769577026,
-        "p_draw": 0.2016441375017166,
-        "p_away": 0.6633554697036743,
-        "confidence": 0.6633554697036743,
+        "home": "Tunisia",
+        "away": "Netherlands",
+        "city": "Kansas City",
+        "date": "2026-06-25",
+        "p_home": 0.06404582411050797,
+        "p_draw": 0.12707529962062836,
+        "p_away": 0.8088788986206055,
+        "confidence": 0.8088788986206055,
         "confident": true,
         "pick": "away_win",
         "pick_label": "away win",
         "features": {
-          "home_elo": 1812.6628234062937,
-          "away_elo": 2070.9828139934407,
-          "home_form_gf": 1.8,
-          "home_form_ga": 0.6,
-          "away_form_gf": 3.0,
-          "away_form_ga": 1.0,
-          "home_strength": 63.1,
-          "away_strength": 98.4,
+          "home_elo": 1710.086441941399,
+          "away_elo": 2012.3473369576539,
+          "home_form_gf": 0.2,
+          "home_form_ga": 3.0,
+          "away_form_gf": 2.0,
+          "away_form_ga": 1.2,
+          "home_strength": 32.8,
+          "away_strength": 87.4,
           "home_is_host": 0.0,
           "away_is_host": 0.0,
-          "home_support_index": 0.30813446367078073,
-          "away_support_index": 0.29078449363058756
+          "home_support_index": 0.25061706272780515,
+          "away_support_index": 0.28554877779282906
         },
         "dc": {
           "scoreline": [
             0,
-            1
+            2
           ],
-          "xg_home": 0.82,
-          "xg_away": 1.88,
-          "home": 0.15116627951626643,
-          "draw": 0.22805018674292754,
-          "away": 0.6207835337408061
+          "xg_home": 0.68,
+          "xg_away": 2.15,
+          "home": 0.10163785371858669,
+          "draw": 0.1875388553061461,
+          "away": 0.7108232909752672
         },
-        "preview": "Brazil are heavy favourites here, with the model giving them a 66% chance of victory, and the single biggest factor is the enormous Elo gap of 258 points \u2014 a reflection of Brazil's sustained elite-level performance against Scotland's more modest standing. The expected goals back that up, projecting a 1.88 to 0.82 advantage for the Sele\u00e7\u00e3o, with a 0-1 scoreline the most likely outcome. Scotland will need to punch well above their weight to get anything from this one."
-      },
-      {
-        "home": "Morocco",
-        "away": "Haiti",
-        "city": "Atlanta",
-        "date": "2026-06-24",
-        "p_home": 0.7649463415145874,
-        "p_draw": 0.17276513576507568,
-        "p_away": 0.06228850409388542,
-        "confidence": 0.7649463415145874,
-        "confident": true,
-        "pick": "home_win",
-        "pick_label": "home win",
-        "features": {
-          "home_elo": 1984.9181205126235,
-          "away_elo": 1660.240974684482,
-          "home_form_gf": 2.4,
-          "home_form_ga": 0.4,
-          "away_form_gf": 1.2,
-          "away_form_ga": 1.4,
-          "home_strength": 71.2,
-          "away_strength": 13.0,
-          "home_is_host": 0.0,
-          "away_is_host": 0.0,
-          "home_support_index": 0.27681296663717125,
-          "away_support_index": 0.49660127175807206
-        },
-        "dc": {
-          "scoreline": [
-            2,
-            0
-          ],
-          "xg_home": 2.1,
-          "xg_away": 0.4,
-          "home": 0.7709105565051346,
-          "draw": 0.1739569394433363,
-          "away": 0.05513250405152903
-        },
-        "preview": "Morocco are heavy favourites here, with the model giving them a 76% chance of winning and an expected scoreline of 2-0. The single biggest factor driving that call is the enormous squad strength gap \u2014 Morocco score 71 out of 100 against Haiti's 13 \u2014 which aligns with a 325-point Elo advantage built on consistent performances against far stronger opposition. Haiti's slight crowd-support edge from travel proximity barely registers against that gulf in class."
+        "preview": "Netherlands are heavy favourites here, with the model giving them an 81% chance of victory, and the single biggest factor is the enormous Elo gap of 302 points \u2014 a reflection of a sustained, significant difference in international pedigree between the two sides. Tunisia's recent form is dire, conceding three goals per game on average, while the Dutch are expected to put around two past them based on the goals model. A 0-2 Netherlands win is the most likely scoreline, and nothing in the underlying numbers gives Tunisia a credible route to an upset."
       }
     ]
   },
   "yesterday": {
-    "date": "2026-06-23",
+    "date": "2026-06-24",
     "games": [
       {
-        "home": "Colombia",
-        "away": "DR Congo",
-        "home_score": 1,
-        "away_score": 0,
+        "home": "Bosnia and Herzegovina",
+        "away": "Qatar",
+        "home_score": 3,
+        "away_score": 1,
         "pick": "home_win",
         "pick_label": "home win",
-        "confidence": 0.7161391973495483,
+        "confidence": 0.581017255783081,
+        "confident": false,
+        "correct": true
+      },
+      {
+        "home": "Canada",
+        "away": "Switzerland",
+        "home_score": 1,
+        "away_score": 2,
+        "pick": "away_win",
+        "pick_label": "away win",
+        "confidence": 0.3518482744693756,
+        "confident": false,
+        "correct": true
+      },
+      {
+        "home": "Scotland",
+        "away": "Brazil",
+        "home_score": 0,
+        "away_score": 3,
+        "pick": "away_win",
+        "pick_label": "away win",
+        "confidence": 0.68157958984375,
         "confident": true,
         "correct": true
       },
       {
-        "home": "England",
-        "away": "Ghana",
-        "home_score": 0,
+        "home": "Mexico",
+        "away": "Czech Republic",
+        "home_score": 3,
         "away_score": 0,
         "pick": "home_win",
         "pick_label": "home win",
-        "confidence": 0.8091475367546082,
-        "confident": true,
+        "confidence": 0.5719060301780701,
+        "confident": false,
+        "correct": true
+      },
+      {
+        "home": "South Africa",
+        "away": "South Korea",
+        "home_score": 1,
+        "away_score": 0,
+        "pick": "away_win",
+        "pick_label": "away win",
+        "confidence": 0.5762057900428772,
+        "confident": false,
         "correct": false
       },
       {
-        "home": "Portugal",
-        "away": "Uzbekistan",
-        "home_score": 5,
-        "away_score": 0,
+        "home": "Morocco",
+        "away": "Haiti",
+        "home_score": 4,
+        "away_score": 2,
         "pick": "home_win",
         "pick_label": "home win",
-        "confidence": 0.771441638469696,
+        "confidence": 0.7503481507301331,
         "confident": true,
-        "correct": true
-      },
-      {
-        "home": "Panama",
-        "away": "Croatia",
-        "home_score": 0,
-        "away_score": 1,
-        "pick": "away_win",
-        "pick_label": "away win",
-        "confidence": 0.5675884485244751,
-        "confident": false,
         "correct": true
       }
     ]
@@ -299,42 +321,42 @@
     {
       "rank": 1,
       "team": "Argentina",
-      "pct": 20.5
+      "pct": 20.2
     },
     {
       "rank": 2,
       "team": "Spain",
-      "pct": 14.4
+      "pct": 15.5
     },
     {
       "rank": 3,
       "team": "France",
-      "pct": 10.5
+      "pct": 10.7
     },
     {
       "rank": 4,
-      "team": "Germany",
-      "pct": 7.9
+      "team": "Brazil",
+      "pct": 9.8
     },
     {
       "rank": 5,
-      "team": "Brazil",
-      "pct": 7.8
+      "team": "Germany",
+      "pct": 7.5
     },
     {
       "rank": 6,
       "team": "England",
-      "pct": 7.8
+      "pct": 7.3
     },
     {
       "rank": 7,
       "team": "Portugal",
-      "pct": 7.0
+      "pct": 6.9
     },
     {
       "rank": 8,
       "team": "Colombia",
-      "pct": 4.7
+      "pct": 4.5
     }
   ],
   "meta": {
