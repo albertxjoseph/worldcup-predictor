@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T11:43:52.787975+00:00",
+  "generated_at": "2026-06-27T10:56:33.865822+00:00",
   "ledger_start": "2026-06-16",
   "confident_threshold": 0.6,
   "accuracy": {
@@ -41,13 +41,13 @@
             0,
             0
           ],
-          "xg_home": 0.85,
-          "xg_away": 0.94,
-          "home": 0.3051646483356179,
-          "draw": 0.34478184312175003,
-          "away": 0.35005350854263223
+          "xg_home": 0.86,
+          "xg_away": 0.95,
+          "home": 0.3017124180144761,
+          "draw": 0.34528361622207865,
+          "away": 0.35300396576344517
         },
-        "preview": "Iran enter this clash as narrow favourites at 43%, driven primarily by their superior recent form \u2014 they've been banging in goals at twice Egypt's rate while keeping things tight at the back. The Elo ratings back that up too, with Iran holding a 73-point edge that reflects a genuinely stronger recent track record on the international stage. That said, the Dixon-Coles model keeps it tight, projecting under a goal apiece and a 0-0 as the likeliest single scoreline, so don't expect Iran to run away with it."
+        "preview": "Iran enter this clash as the model's favourites at 43%, and the single biggest factor driving that edge is their recent form \u2014 they've been banging in goals at twice Egypt's rate while barely conceding. The Elo gap of 73 points in Iran's favour backs that up, and with neither side enjoying any home comforts at a neutral venue, there's no soft factor to bail Egypt out. Expect a tight, low-scoring affair with a 0-0 the likeliest single result, but if anyone breaks the deadlock, the model thinks it'll be Iran."
       },
       {
         "home": "New Zealand",
@@ -81,12 +81,12 @@
             2
           ],
           "xg_home": 0.56,
-          "xg_away": 2.38,
-          "home": 0.06484530133492074,
-          "draw": 0.15829019749799542,
-          "away": 0.7768645011670838
+          "xg_away": 2.32,
+          "home": 0.0668813149710992,
+          "draw": 0.16580871722372612,
+          "away": 0.7673099678051747
         },
-        "preview": "Belgium are heavy favourites here, with the model giving them a 77% chance of victory, and the single biggest factor is the enormous Elo gap of 306 points \u2014 a reflection of Belgium's sustained status as one of world football's elite sides against a New Zealand team ranked far below them. The expected goals numbers back that up brutally, projecting a 0.56\u20132.38 scoreline in Belgium's favour, with a 0-2 the most likely outcome. New Zealand's recent defensive record (conceding 2.2 goals per game) only reinforces the sense that Belgium's attack should find plenty of joy here."
+        "preview": "Belgium are heavy favourites here, with the model giving them a 77% chance of victory against a New Zealand side that is simply outclassed on almost every metric. The single biggest factor is the massive Elo gap of 306 points, reflecting Belgium's status as a world-class outfit against opponents ranked far below them, and that gulf is reinforced by a squad strength comparison of 88 versus 26. The Dixon-Coles model expects Belgium to win 2-0, and with New Zealand's defence conceding at a rate of 2.2 goals per game recently, that scoreline looks entirely plausible."
       },
       {
         "home": "Cape Verde",
@@ -119,13 +119,13 @@
             0,
             0
           ],
-          "xg_home": 0.91,
-          "xg_away": 0.83,
-          "home": 0.3459678517266187,
-          "draw": 0.3501834597800335,
-          "away": 0.3038486884933479
+          "xg_home": 0.89,
+          "xg_away": 0.85,
+          "home": 0.333304682937935,
+          "draw": 0.35445827034726957,
+          "away": 0.3122370467147953
         },
-        "preview": "Cape Verde edge this one as narrow favourites despite nearly identical Elo ratings, with the model giving them a 41% chance of winning against Saudi Arabia's 30%. The biggest factor driving the pick is recent form \u2014 Cape Verde's attack has been slightly more productive while Saudi Arabia have been leaking goals at a higher rate, shifting the balance just enough. It's tight throughout, with a goalless draw the single most likely scoreline, reflecting how evenly matched these two sides genuinely are."
+        "preview": "Cape Verde get the nod here, but only just \u2014 the model gives them a 41% chance of winning against Saudi Arabia's 30%, making this about as close to a coin flip as it gets. The single biggest factor tipping the scales is Cape Verde's superior recent attacking-to-defensive balance, conceding at a better rate relative to their output despite comparable Elo ratings. Expect a tight, low-scoring affair with the 0-0 the most likely individual scoreline, reflecting two defensively solid sides who don't exactly light up the scoreboard."
       },
       {
         "home": "Uruguay",
@@ -158,13 +158,13 @@
             0,
             1
           ],
-          "xg_home": 0.63,
+          "xg_home": 0.62,
           "xg_away": 1.53,
-          "home": 0.14548729433638982,
-          "draw": 0.2693225920374565,
-          "away": 0.5851901136261537
+          "home": 0.14117178180477832,
+          "draw": 0.2712133317443021,
+          "away": 0.5876148864509196
         },
-        "preview": "Spain are heavy favourites here, with the model giving them a 62% chance of victory, and the single biggest factor is the enormous Elo gap of 225 points \u2014 a reflection of Spain's sustained excellence at the highest level compared to a Uruguay side that simply isn't operating in the same tier right now. Spain's defensive solidity backs that up too, conceding just 0.4 goals per game in recent form against Uruguay's leaky 1.8, and the Dixon-Coles model translates all of this into an expected scoreline of roughly 1-0 to Spain with the Uruguayans struggling to find the net. Without a home crowd advantage for either side, there's nothing to soften the blow for Uruguay \u2014 this looks like a comfortable Spanish win on paper."
+        "preview": "Spain are heavy favourites here, with the model giving them a 62% chance of victory, and the single biggest factor is the enormous 225-point Elo gap between these two sides \u2014 a reflection of Spain's sustained elite-level performance that dwarfs Uruguay's standing. That superiority is reinforced by Spain's clinical attack and miserly defence (1.6 goals scored, just 0.4 conceded per game recently) against a Uruguayan side leaking 1.8 per game, which is why the Dixon-Coles model projects a 0-1 scoreline as the most likely outcome. Uruguay aren't without threat, but on paper this looks like a routine win for the Europeans."
       },
       {
         "home": "Norway",
@@ -197,13 +197,13 @@
             1,
             1
           ],
-          "xg_home": 1.16,
+          "xg_home": 1.15,
           "xg_away": 1.64,
-          "home": 0.2630059020477008,
-          "draw": 0.2578177395851093,
-          "away": 0.4791763583671898
+          "home": 0.2583050600452165,
+          "draw": 0.26065300773271505,
+          "away": 0.4810419322220686
         },
-        "preview": "France are clear favourites here, with the model giving them a 60% chance of victory, and the single biggest factor is the enormous squad strength gap \u2014 France score a near-perfect 99 against Norway's 62, reflecting a depth of elite talent that simply doesn't compare. The Elo ratings back this up, with France sitting 144 points ahead of Norway, and their superior attacking output should tell over 90 minutes. Norway can threaten on the counter \u2014 they keep things tight defensively \u2014 but the Dixon-Coles model still expects France to outscore them, making this a comfortable paper advantage for Les Bleus even on a neutral pitch."
+        "preview": "France are heavy favourites here, with the model giving them a 60% chance of victory, and the single biggest factor driving that is the enormous squad strength gap \u2014 France score a near-perfect 99 against Norway's 62. The Elo ratings back this up, with France holding a 144-point advantage that reflects their sustained excellence at international level. Norway's decent recent form and solid defensive numbers keep this from being a foregone conclusion, with the goals model actually pointing to a 1-1 draw as the most likely individual scoreline, but the quality gap is simply too wide for the model to look past."
       },
       {
         "home": "Senegal",
@@ -238,11 +238,11 @@
           ],
           "xg_home": 1.61,
           "xg_away": 0.56,
-          "home": 0.6267828103801238,
-          "draw": 0.2539170116744801,
-          "away": 0.11930017794539605
+          "home": 0.6221051082584503,
+          "draw": 0.2574229591367945,
+          "away": 0.12047193260475506
         },
-        "preview": "Senegal are heavy favourites here, with the model giving them a 66% chance of victory driven overwhelmingly by the massive squad quality gap \u2014 a rating of 69 against Iraq's 23. The Elo gap of 174 points backs that up, and while Senegal's recent defensive numbers look shaky, their attack is expected to generate around 1.6 goals to Iraq's anaemic 0.56. A narrow Senegal win, most likely 1-0, is the model's call, and the single biggest factor is simply that Senegal have far better players on the pitch."
+        "preview": "Senegal are clear favourites here, with the model giving them a 66% chance of victory driven overwhelmingly by the massive squad quality gap \u2014 a rating of 69 against Iraq's 23. The Elo gap of 174 points backs that up, and while Senegal's recent defensive numbers look shaky, their attack still outguns an Iraq side averaging just 0.6 goals per game. A narrow 1-0 win is the most likely scoreline, with Senegal expected to do just enough without it being a spectacle."
       }
     ]
   },
@@ -321,12 +321,12 @@
     {
       "rank": 1,
       "team": "Argentina",
-      "pct": 19.3
+      "pct": 19.1
     },
     {
       "rank": 2,
       "team": "Spain",
-      "pct": 16.8
+      "pct": 16.1
     },
     {
       "rank": 3,
@@ -336,27 +336,27 @@
     {
       "rank": 4,
       "team": "Brazil",
-      "pct": 10.3
+      "pct": 10.4
     },
     {
       "rank": 5,
       "team": "England",
-      "pct": 6.6
+      "pct": 6.8
     },
     {
       "rank": 6,
-      "team": "Germany",
-      "pct": 6.1
+      "team": "Portugal",
+      "pct": 6.5
     },
     {
       "rank": 7,
-      "team": "Portugal",
-      "pct": 6.1
+      "team": "Germany",
+      "pct": 6.2
     },
     {
       "rank": 8,
       "team": "Netherlands",
-      "pct": 4.8
+      "pct": 4.6
     }
   ],
   "meta": {
